@@ -1,0 +1,71 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+.name,
+.type,
+.actions {
+  padding-left: 15%;
+}
+
+.formulario {
+  display: grid;
+  border: 2px solid black;
+  padding: 1rem;
+  width: 30%;
+}
+
+.formulario input,
+.formulario button,
+.formulario label {
+  width: 90%;
+  padding: 0.3rem;
+}
+
+.detalles {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto);
+  width: 50%;
+  border: 2px solid black;
+}
+
+.campo {
+  grid-column: 1/2;
+}
+
+.dato {
+  grid-column: 2/3;
+}
+.campo-1,
+.dato-1 {
+  grid-row: 1/2;
+}
+
+.campo-2,
+.dato-2 {
+  grid-row: 2/3;
+}
+
+.campo-3 {
+  grid-row: 3/4;
+}
+
+section button {
+  justify-content: center;
+  padding: 1rem;
+  width: 30%;
+  margin-left: 50%;
+  border-radius: 0.8rem;
+  margin: 1rem 50%;
+  background-color: lightgreen;
+}
